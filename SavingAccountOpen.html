@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>BankingSystem</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic&amp;display=swap">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/aos.css">
+    <link rel="stylesheet" href="assets/css/Articles-Cards-images.css">
+    <link rel="stylesheet" href="assets/css/baguetteBox.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="assets/css/Drag--Drop-Upload-Form.css">
+    <link rel="stylesheet" href="assets/css/Drag-Drop-File-Input-Upload.css">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/Footer-Multi-Column-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="assets/css/keyboard.css">
+    <link rel="stylesheet" href="assets/css/prettify.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/tipsy.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light" id="mainNav" style="background: #486cea;">
+        <div class="container"><a class="navbar-brand" href="#page-top">Virginia bank</a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-align-justify"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">Home</a></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#">Account</a>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="SavingAcoount.html">Saving Account</a><a class="dropdown-item" href="CurrentAccount.html">Current Account</a><a class="dropdown-item" href="SalaryAccount.html">Salary Account</a></div>
+                    </li>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#">Service</a>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="BusinessConsulting.html">Business consulting</a><a class="dropdown-item" href="Financialmanagement.html">Financial Management</a><a class="dropdown-item" href="Insurance.html">Insurance Consulting</a><a class="dropdown-item" href="CreditCard.html">Credit card</a></div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"><a class="nav-link" href="Offers.html">Offers</a></li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item"></li>
+                    <li class="nav-item"></li>
+                    <li class="nav-item"><a class="nav-link" href="ContactUs.html">Contact</a></li>
+                </ul><button class="btn btn-primary" type="button" style="background: rgb(42,89,189);border-radius: 25px;font-weight: bold;">Signin</button>
+            </div>
+        </div>
+    </nav>
+    <div class="container" style="margin-top: 95px;">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title" style="text-align: center;color: #0044cc;">Account open Form</h4>
+                    </div>
+                    <form id="demo-form">
+                        <div class="row">
+                            <div class="col" style="text-align: center;"><img src="assets/img/user%20(1).png">
+                                <div class="row mt-3">
+                                    <div class="col"><button class="btn btn-primary" type="button" style="background: rgb(32,201,39);font-weight: bold;border-radius: 20px;">Upload</button></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col"><label class="col-form-label">Account Type</label></div>
+                            <div class="col"><label class="col-form-label">Account Category</label></div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col">
+                                <div class="input-group" style="border-top-left-radius: 0px;border-top-right-radius: 0px;border-bottom-right-radius: 0px;"><span class="input-group-text" style="border-top-left-radius: 20px;border-bottom-left-radius: 20px;">Please Select</span><select class="form-select" style="border-top-left-radius: 0px;border-top-right-radius: 20px;border-bottom-right-radius: 20px;" required="">
+                                        <optgroup label="">
+                                            <option value="12" selected="">Saving Account</option>
+                                            <option value="13">Current Account</option>
+                                            <option value="14">Salary Account</option>
+                                        </optgroup>
+                                    </select></div>
+                            </div>
+                            <div class="col">
+                                <div class="input-group" style="border-top-left-radius: 0px;border-top-right-radius: 0px;border-bottom-right-radius: 0px;"><span class="input-group-text" style="border-top-left-radius: 20px;border-bottom-left-radius: 20px;">Please Select</span><select class="form-select" style="border-top-left-radius: 0px;border-top-right-radius: 20px;border-bottom-right-radius: 20px;" required="">
+                                        <optgroup label="">
+                                            <option value="12" selected="">Individual</option>
+                                            <option value="">Joint</option>
+                                        </optgroup>
+                                    </select></div>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col"><label class="col-form-label">Month Salary</label></div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col"><input class="form-control" type="text" style="border-top-left-radius: 20px;border-top-right-radius: 20px;border-bottom-right-radius: 20px;border-bottom-left-radius: 20px;" required=""></div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col">
+                                <div class="input-group"><span class="input-group-text" style="border-top-left-radius: 20px;border-bottom-left-radius: 20px;">First Name</span><input class="form-control" type="text" style="border-top-right-radius: 19px;border-bottom-right-radius: 20px;" required=""></div>
+                            </div>
+                            <div class="col">
+                                <div class="input-group"><span class="input-group-text" style="border-top-left-radius: 20px;border-bottom-left-radius: 20px;">Last Name</span><input class="form-control" type="text" style="border-top-right-radius: 19px;border-bottom-right-radius: 20px;" required=""></div>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col">
+                                <div class="input-group"><span class="input-group-text" style="border-top-left-radius: 20px;border-bottom-left-radius: 20px;">DOB</span><input class="form-control" type="date" required=""></div>
+                            </div>
+                            <div class="col">
+                                <div class="input-group" style="border-top-left-radius: 0px;border-top-right-radius: 0px;border-bottom-right-radius: 0px;"><span class="input-group-text" style="border-top-left-radius: 20px;border-bottom-left-radius: 20px;">Nationality</span><select class="form-select" style="border-top-left-radius: 0px;border-top-right-radius: 20px;border-bottom-right-radius: 20px;" required="">
+                                        <optgroup label="This is a group">
+                                            <option value="12" selected="">This is item 1</option>
+                                            <option value="13">This is item 2</option>
+                                            <option value="14">This is item 3</option>
+                                        </optgroup>
+                                    </select></div>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col">
+                                <div class="input-group"><span class="input-group-text" style="border-top-left-radius: 20px;border-bottom-left-radius: 20px;">Street Address</span><input class="form-control" type="text" style="border-top-right-radius: 19px;border-bottom-right-radius: 20px;" required=""></div>
+                            </div>
+                            <div class="col">
+                                <div class="input-group"><span class="input-group-text" style="border-top-left-radius: 20px;border-bottom-left-radius: 20px;">Postal/Zip code</span><input class="form-control" type="text" style="border-top-right-radius: 19px;border-bottom-right-radius: 20px;" required=""></div>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col"><label class="col-form-label">Gender</label></div>
+                            <div class="col">
+                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-1"><label class="form-check-label" for="formCheck-1">Male</label></div>
+                                <div class="form-check"><input class="form-check-input" type="radio" id="formCheck-2"><label class="form-check-label" for="formCheck-2">Female</label></div>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col">
+                                <div class="input-group"><span class="input-group-text" style="border-top-left-radius: 20px;border-bottom-left-radius: 20px;">MobNo</span><input class="form-control" type="text" style="border-top-right-radius: 19px;border-bottom-right-radius: 20px;" required=""></div>
+                            </div>
+                            <div class="col"><label class="form-label">Form of Identification</label>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-3"><label class="form-check-label" for="formCheck-3">National Identity Card</label></div>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-4"><label class="form-check-label" for="formCheck-4">Driver's Licence</label></div>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-5"><label class="form-check-label" for="formCheck-5">Aadhar card</label></div>
+                                        <div class="form-check"><input class="form-check-input" type="checkbox" id="formCheck-6"><label class="form-check-label" for="formCheck-6">International Passport</label></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-3" style="position: static;">
+                            <div class="col align-self-center">
+                                <div class="form-check" style="padding-left: 43px;"><input class="form-check-input" type="radio" id="formCheck-7"><label class="form-check-label" for="formCheck-7" style="text-align: left;">i agree to the terms of service</label></div>
+                                <div class="g-recaptcha mt-3" data-sitekey="6LcQutMnAAAAAHFY_R9dK6YEubquC-vravm2fgB9" style="padding-left: 33px;"></div>
+                                <div class="row">
+                                    <div class="col" style="text-align: center;"><input class="btn btn-primary mt-3" type="submit" style="background: rgb(32,201,39);"></div>
+                                </div>
+                            </div>
+                            <div class="col align-self-center" style="text-align: center;"><label class="form-label">ID Upload</label>
+                                <div class="files color form-group mb-3"><input class="form-control" type="file" multiple="" name="files"></div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.easing.1.3.js"></script>
+    <script src="assets/js/jquery-ui.js"></script>
+    <script src="assets/js/jquery.countdown.min.js"></script>
+    <script src="assets/js/jquery.sticky.js"></script>
+    <script src="assets/js/jquery.fancybox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/fontawesome.min.js"></script>
+    <script src="assets/js/baguetteBox.min.js"></script>
+    <script src="assets/js/creative.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/Lightbox-Gallery.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script src="assets/js/jquery-latest-slim.min.js"></script>
+    <script src="assets/js/jquery-migrate-3.1.0.min.js"></script>
+    <script src="assets/js/jquery-ui-custom.min.js"></script>
+    <script src="assets/js/jquery.keyboard.extension-autocomplete.js"></script>
+    <script src="assets/js/jquery.keyboard.extension-caret.js"></script>
+    <script src="assets/js/jquery.keyboard.extension-typing.js"></script>
+    <script src="assets/js/jquery.keyboard.js"></script>
+    <script src="assets/js/jquery.mousewheel.js"></script>
+    <script src="assets/js/jquery.tipsy.min.js"></script>
+    <script src="assets/js/new-1.js"></script>
+    <script src="assets/js/new.js"></script>
+    <script src="assets/js/prettify.js"></script>
+</body>
+
+</html>
